@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
     });
 
     Route::get('/about', function () {
-       return "Nim : 2041720023, Nama : Annisa Aulia Nadhila, Kelas : TI 2C";
+       return "Nim : 2041720023, <br> Nama : Annisa Aulia Nadhila,<br> Kelas : TI 2C";
     });
 
     Route::get('/articles/{id}', function($id){
